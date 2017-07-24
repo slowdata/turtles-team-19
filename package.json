@@ -1,0 +1,28 @@
+{
+  "name": "turtles-team-19",
+  "version": "0.0.1",
+  "description": "Chingu-Voyage turtles-team-19 project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --server --directory --files **/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slowdata/turtles-team-19.git"
+  },
+  "keywords": [
+    "chingu",
+    "voyage",
+    "turtles-team-19"
+  ],
+  "author": "turtles-team-19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slowdata/turtles-team-19/issues"
+  },
+  "homepage": "https://github.com/slowdata/turtles-team-19#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13"
+  }
+}
