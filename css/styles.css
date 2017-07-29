@@ -2,12 +2,31 @@ html, body, .main {
     margin: 0;
     padding: 0.5%;
     background: #FFF8F1;
-    
 }
 
 .navbar {
 	background-color: #FFF8F1;
 }
+
+.jumbotron {
+    background-color: #FFF8F1
+}
+
+.jumbotron h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 40px;
+    line-height: 1.3em;
+    word-spacing: 0.2em;
+    color: #FFDFBC;
+}
+
+.jumbotron h4 {
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    line-height: 1.4em;
+    word-spacing: 0.2em;
+}
+
 
 #proud-space {
 	text-align: center;
@@ -15,3 +34,23 @@ html, body, .main {
 
 }
 
+#btn-add-slack {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 40px;
+    margin-top: 30px;
+    color: #FFDFBC;
+    border: 1px solid transparent;
+}
+
+.container-2 {
+    background-color: #FFF;
+    min-width: 200px;
+    height: 100%;
+    padding-bottom: 300px;
+    margin: -50px;
+
+}
