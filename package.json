@@ -24,5 +24,8 @@
   "homepage": "https://github.com/slowdata/turtles-team-19#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
   }
 }
