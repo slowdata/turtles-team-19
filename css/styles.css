@@ -195,7 +195,25 @@ html, body, .main {
     float: right;
 }
 
-#names {
-    float: ;
+#names h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+.line
+{
+    text-align: center;
+    width: 33%;
+    float: left;
       
+}
+
+#images {
+    margin-top: 100px;
+}
+
+.img-responsive {
+    margin: auto;
+    height: 200px;
+    
 }
