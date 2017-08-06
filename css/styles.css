@@ -127,4 +127,46 @@ html, body, .main {
     padding: 5em 0;
     position: relative;
     transition: background-size 0.15s ease-out 0s; */
+    padding: 30px;
+}
+
+
+.btn-add-slack {
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 40px;
+    margin-top: 30px;
+    color: #000;
+    border: 1px solid transparent;
+    margin-top: 20px;
+}
+
+.seccao
+{
+    margin-top: 6.25em;
+}
+
+.title
+{
+    font-size: 2.25em;
+    margin-bottom: 1.25em;
+    text-align: center;
+}
+
+.announcement-bar
+{
+    display: block;
+    line-height: 3.75em;
+    text-align: center;
+    width: 100%;
+}
+
+.announcement-bar-text{
+    display: inline-block;
+    font-size: 0.9375em;
+    margin: 0;
+    vertical-align: middle;
 }
