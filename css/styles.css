@@ -27,6 +27,24 @@ html, body, .main {
     word-spacing: 0.2em;
 }
 
+.breadcrumb {
+    background-color: #FFF8F1;
+    color: #FFDFBC;
+}
+
+.breadcrumb>.active {
+    color: #332f2f;
+}
+
+.breadcrumb a{
+    color: #FFDFBC;
+}
+
+
+.breadcrumb .active a{
+    color: #777;
+}
+
 
 #proud-space {
 	text-align: center;
@@ -169,4 +187,15 @@ html, body, .main {
     font-size: 0.9375em;
     margin: 0;
     vertical-align: middle;
+}
+
+/*about page css*/
+
+#navigation-links {
+    float: right;
+}
+
+#names {
+    float: ;
+      
 }
