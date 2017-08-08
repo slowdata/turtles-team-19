@@ -217,3 +217,42 @@ html, body, .main {
     height: 200px;
     
 }
+
+img {
+    max-width: 100%;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0 none;
+}
+
+.rowTestSpace
+{
+    margin-bottom: 6.25em;
+}
+
+.home-how-it-works .how-it-works-content {
+    padding: 2.5em 0;
+    text-align: center;
+}
+
+.home-how-it-works .how-it-works-content ul {
+    display: table;
+    list-style: outside none none;
+    margin: 0 auto;
+    max-width: 30.8333em;
+    text-align: left;
+}
+
+.home-how-it-works .how-it-works-content li {
+    color: #8d9499;
+    font-size: 1.125em;
+    margin: 0 auto;
+}
+
+.home-how-it-works .how-it-works-content li img {
+    margin-right: 1em;
+    width: 2.125em;
+}
