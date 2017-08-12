@@ -5,23 +5,36 @@ html, body, .main {
 }
 
 .navbar {
+    font-family: 'Saira Semi Condensed', sans-serif;
 	background-color: #FFF8F1;
+	border: none;
 }
+
+.navbar-default .navbar-brand:hover {
+    color: #AA7CFF;
+}
+
+.navbar-default .navbar-nav  li  a:focus, .navbar-default .navbar-nav  li  a:hover {
+    color: #AA7CFF;
+}
+
+
 
 .jumbotron {
     background-color: #FFF8F1
 }
 
 .jumbotron h2 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 40px;
     line-height: 1.3em;
     word-spacing: 0.2em;
-    color: #FFDFBC;
+    color: #3B9EC4;
+    margin-bottom: 100px;
 }
 
 .jumbotron h4 {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     line-height: 1.4em;
     word-spacing: 0.2em;
@@ -60,12 +73,12 @@ html, body, .main {
     font-weight: 700;
     padding: 12px 40px;
     margin-top: 30px;
-    color: #FFDFBC;
+    color: #1F8FBA;
     border: 1px solid transparent;
 }
 
 .container-2 {
-    background-color: #FFF;
+    background-color: #AA7CFF;
     min-width: 200px;
     height: 100%;
     padding-bottom: 300px;
@@ -87,7 +100,6 @@ html, body, .main {
 
 .footer-nav-share a {
     display: inline-block;
-    
     color: #86939e;
     font-size: 18px;
 }
@@ -165,13 +177,16 @@ html, body, .main {
 .seccao
 {
     margin-top: 6.25em;
+    font-family: 'Roboto', sans-serif;
 }
 
 .title
 {
     font-size: 2.25em;
-    margin-bottom: 1.25em;
+    margin-bottom: 1.30em;
     text-align: center;
+    margin-top: -100px;
+    text-transform: capitalize;
 }
 
 .announcement-bar
@@ -209,12 +224,13 @@ html, body, .main {
 }
 
 #images {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .img-responsive {
     margin: auto;
     height: 200px;
+    border-radius: 25px;
     
 }
 
@@ -234,8 +250,12 @@ img {
 }
 
 .home-how-it-works .how-it-works-content {
-    padding: 2.5em 0;
+    padding: 1em 0;
     text-align: center;
+}
+
+.home-how-it-works .how-it-works-content h2 {
+    margin-bottom: 1em;
 }
 
 .home-how-it-works .how-it-works-content ul {
@@ -257,9 +277,14 @@ img {
     width: 2.125em;
 }
 
-.bottom-section {
+.bot-sect {
     text-align: center;
     margin-top: 5%;
+    font-family: 'Coming Soon', cursive;
+}
+
+.bot-sect h3 {
+    font-weight: 900;
 }
 
 .form-control {
@@ -269,5 +294,26 @@ img {
 
 .submit-btn {
     margin:  50px auto auto auto;
-    width: 50%;
+    width: 15%;
+    font-family: 'Coming Soon', cursive;
 }
+
+.middle-section  {
+    line-height: 200%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#names h1 {
+    font-family: 'Coming Soon', cursive;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+#names p {
+    font-size: 2rem;
+    font-family: 'Saira Semi Condensed', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
