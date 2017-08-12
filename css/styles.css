@@ -256,3 +256,18 @@ img {
     margin-right: 1em;
     width: 2.125em;
 }
+
+.bottom-section {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form-control {
+    margin:  50px auto auto auto; 
+    width: 50%;
+}
+
+.submit-btn {
+    margin:  50px auto auto auto;
+    width: 50%;
+}
