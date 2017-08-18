@@ -86,6 +86,10 @@ html, body, .main {
 
 }
 
+footer {
+    margin-top: 25px;
+}
+
 .footer-list {
     list-style: outside none none;
     margin-top: 20px;
@@ -171,12 +175,13 @@ html, body, .main {
     margin-top: 30px;
     color: #000;
     border: 1px solid transparent;
-    margin-top: 20px;
+    display: inline-block;
 }
 
 .seccao
 {
     margin-top: 6.25em;
+    margin-bottom: 25px;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -236,12 +241,8 @@ html, body, .main {
 
 img {
     max-width: 100%;
-}
-img {
-    vertical-align: middle;
-}
-img {
     border: 0 none;
+    vertical-align: middle;
 }
 
 .rowTestSpace
